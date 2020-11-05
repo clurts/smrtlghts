@@ -15,15 +15,6 @@ const Header = () => {
         height: ${isSubPage ? "17em" : "9.75em"};
         transition: height 1s;
     `;
-    const styleCont = css`
-        position: relative;
-        left: -1.5em;
-        width: 100vw;
-        padding: 0 1.5em;
-        box-sizing: border-box;
-        overflow: hidden;
-    `;
-
     const flickityOptions = {
         freeScroll: true,
         contain: true,

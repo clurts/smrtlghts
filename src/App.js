@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { css, jsx } from "@emotion/core";
+import { jsx } from "@emotion/core";
 import "./App.css";
 import Header from "./components/Header";
 import Main from "./components/Main";
