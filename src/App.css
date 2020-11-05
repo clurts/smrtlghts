@@ -2,6 +2,14 @@ body {
     background-color: #0a4da2;
 }
 
-#root {
-    padding: 2em;
+h1 {
+    font-size: 1.875em;
+    color: white;
+    width: 11em;
+}
+
+h2 {
+    font-size: 1.125em;
+    font-weight: 600;
+    margin-top: 0;
 }

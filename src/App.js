@@ -1,22 +1,14 @@
-import React from "react";
+/** @jsx jsx */
+import { css, jsx } from "@emotion/core";
 import "./App.css";
-import LightSlider from "./components/LightSlider";
-import Form from "./components/Form";
-import Button from "./components/Button";
+import Header from "./components/Header";
+import Main from "./components/Main";
 
 function App() {
     return (
         <div className="App">
-            <header className="App-header">
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <LightSlider initial="10" />
-                <Button color="#235846" txt="Party" />
-                <Button color="#3654ff" txt="Fun" />
-                <Button color="#9845cc" txt="BooHaa" />
-                <Form />
-            </header>
+            <Header />
+            <Main />
         </div>
     );
 }
